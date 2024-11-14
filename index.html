@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/reset.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Day and Night</title>
+</head>
+<body>
+    <div class="clima" id="clima">
+        <div class="sol">
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+            <div class="raios"></div>
+        </div>
+        <div class="nuvem-1"></div>
+        <div class="nuvem-2"></div>
+    </div>
+    <div class="noite-hidden" id="noite"></div>
+    <div class="toggle-wrapper">
+        <input type="checkbox" name="dnb" class="dn" id="dn">
+        <label for="dn" class="toggle">
+            <span class="toggle-handler">
+                <span class="crater crater--1"></span>
+                <span class="crater crater--2"></span>
+                <span class="crater crater--3"></span>
+            </span>
+            <span class="star star--1"></span>
+            <span class="star star--2"></span>
+            <span class="star star--3"></span>
+            <span class="star star--4"></span>
+            <span class="star star--5"></span>
+            <span class="star star--6"></span>
+        </label>
+    </div>
+    <div class="lua-hidden" id="lua">
+        <img src="src/image/lua.png" alt="lua">
+        <div class="brilho"></div>
+    </div>
+    <div class="atributos">
+        <a href="https://pt.vecteezy.com/png-gratis/lua">Lua PNGs por Vecteezy</a>
+    </div>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
