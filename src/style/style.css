@@ -9,6 +9,10 @@ body{
     transition: all 1s ease-in-out;
     overflow: hidden;
 }
+.no-scroll{
+    overflow: hidden;
+    height: 100%;
+}
 .clima{
     position: relative;
     top: 60px;

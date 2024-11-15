@@ -4,7 +4,9 @@ const lua = document.getElementById('lua');
 const sol = document.getElementById('clima');
 const contribuidor = document.getElementById('ajudante');
 const estrelas = document.getElementById('particles-js');
+const html = document.documentElement;
 toggleWrapper.addEventListener("click", () => {
+    html.classList.toggle('no-scroll');
     toggleWrapper.disabled = true;
     setTimeout(() => {
         toggleWrapper.disabled = false;
