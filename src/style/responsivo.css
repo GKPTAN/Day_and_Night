@@ -131,4 +131,58 @@
     .atributos {
         left: 45%;
     }
+    .clima {
+        width: 125px;
+        height: 100px;
+    }
+    .clima .sol {
+        right: 140px;
+    }
+    .clima .sol .raios {
+        width: 4px;
+        height: 25px;
+    }
+    .clima .sol .raios:nth-child(1){
+        top: -30px;
+        left: 23px;
+    }
+    .clima .sol .raios:nth-child(2){
+        top: -18.5px;
+        right: -7px;
+    }
+    .clima .sol .raios:nth-child(3){
+        top: 13px;
+        right: -18px;
+    }
+    .clima .sol .raios:nth-child(4){
+        bottom: -18.5px;
+        right: -7px;
+    }
+    .clima .sol .raios:nth-child(5){
+        bottom: -30px;
+        left: 23px;
+    }
+    .clima .sol .raios:nth-child(6){
+        bottom: -18.5px;
+        left: -7px;
+    }
+    .clima .sol .raios:nth-child(7){
+        top: 13px;
+        left: -18px;
+    }
+    .clima .sol .raios:nth-child(8){
+        top: -18.5px;
+        left: -7px;
+    }
+    .clima .nuvem-1 {
+        width: 75px;
+        height: 75px;
+        display: none;
+    }
+    .clima .nuvem-2 {
+        width: 25px;
+        height: 25px;
+        left: 65px;
+        display: none;
+    }
 }
