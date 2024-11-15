@@ -126,10 +126,11 @@
 }
 @media (max-width: 425px) {
     .toggle-wrapper {
-        left: 25%;
+        top: 85%;
+        left: 30%;
     }
     .atributos {
-        left: 45%;
+        left: 40%;
     }
     .clima {
         width: 125px;
