@@ -8,6 +8,7 @@
         body {
             margin: 0;
             background-color: #070825;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         canvas {
@@ -24,10 +25,50 @@
             width: 100%;
             height: 100%;
         }
+        aside{
+            position: absolute;
+            background-color: white;
+            width: 40%;
+            padding: 30px;
+            border-radius: 30px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        aside h2{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        aside ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        aside ul a{
+            text-decoration: none;
+            color: black;
+            transition: all 0.3s ease-in-out;
+        }
+        aside ul a:hover{
+            background-color: #13155f;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <div id="particles-js"></div>
+    <aside>
+        <h2>Contribuidores/Contributors</h2>
+        <ul>
+            <li><a id="vect" class="lua-azul" href="https://pt.vecteezy.com/png-gratis/lua" target="_blank" rel="external">Lua PNGs por Vecteezy</a></li>
+            <li><a href="https://www.youtube.com/channel/UC7g4CjA705v0qh0L3cvjWbQ" target="_blank" rel="external">Sol criado por Code Companion</a></li>
+            <li><a href="https://youtube.com/@codeworld46?si=y-vPUDakBMcxDsbY" target="_blank" rel="external">Botão criado por Code World</a></li>
+            <li><a href="https://vincentgarreau.com/particles.js/" target="_blank" rel="external">Criador do Particle.js</a></li>
+        </ul>
+    </aside>
 
     <script type="text/javascript" src="../js/particles.min.js"></script>
     <script type="text/javascript" src="../js/custom.js"></script>
